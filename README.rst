@@ -60,7 +60,7 @@ Or if you familiar with git
 .. code-block:: bash
 
     $ git clone http://github.com/sqmus/pyhashron
-    $ cd pyhashron-master
+    $ cd pyhashron
     $ sudo python setup.py install
 
 
