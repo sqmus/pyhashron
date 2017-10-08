@@ -50,7 +50,7 @@ GitHub repository <https://github.com/sqmus/pyhashron>
 import hashron
 __title__ = ("hashron")
 __summary__ = ("Hash testing and fetching using hashlib library")
-__version__ =("0.0.1a1")
+__version__ =("0.1-alpha")
 __description__ = __summary__
 __author__ = ("sqmus")
 __email__ = ("m3k4n5@protonmail.com")
