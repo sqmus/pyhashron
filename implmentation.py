@@ -22,6 +22,7 @@
 #    $ sudo python setup.py install
 
 from hashron import *
+import sys
 
 try:
         print ("""
@@ -38,7 +39,7 @@ try:
  """)
         if(sys.argv[2] > 0 and sys.argv[2] != sys.argv[2] < 0): # check for making positive integer
         	print("[*] Long Key should positive integer")
-        core.begin(sys.argv[1],int(sys.argv[2]),sys.argv[3])
+        hashron.begin(sys.argv[1],int(sys.argv[2]),sys.argv[3])
 except IndexError:
 		print (" " + sys.argv[0] +" <Keyword A..Z> <Long Key 1..integer> <Target Hash>")
 		exit(1)
