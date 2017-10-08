@@ -15,7 +15,12 @@
 #	along with this program; if not, write to the Free Software
 #	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
-# This Hashron module with build implemented function .
+# This Hashron module implematation example
+#    $ git clone http://github.com/sqmus/pyhashron 
+#	but you can download it directly from github
+#    $ cd pyhashron-master
+#    $ sudo python setup.py install
+
 from hashron import *
 
 try:
