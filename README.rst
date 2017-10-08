@@ -40,7 +40,9 @@ Installation
 
 .. code-block:: bash
 
-    $ pip install hashron
+    $ git clone http://github.com/sqmus/pyhashron
+    $ cd pyhashron-master
+    $ sudo python setup.py install
 
 
 Resources
