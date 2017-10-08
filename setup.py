@@ -12,7 +12,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name=hashron.__title__,
-    version='0.0.1a1',
+    version='0.1-alpha',
     description=long_description,
     url=hashron.__homepage__,
     author=hashron.__author__,
